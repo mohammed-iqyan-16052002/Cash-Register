@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: linear-gradient(to right bottom, #333133, #57566a, #6184aa, #45b9e0, #00f1ff);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .form{
+    width: 30%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+}
+.container .form h1{
+    text-align: center;
+}
+.container .form .in{
+    width: 50%;
+    height:7vh ;
+    background: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .form .in h4{
+    text-align: center;
+}
